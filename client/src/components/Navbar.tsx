@@ -15,8 +15,8 @@ export default function Navbar() {
         <nav>
             <ul>
                 <>
-                    {routes.map(route => (
-                        <li><Link href={route.path}>{route.name}</Link></li>
+                    {routes.map((route, index) => (
+                        <li key={index}><Link href={route.path}>{route.name}</Link></li>
                     ))
                     }
                 </>
