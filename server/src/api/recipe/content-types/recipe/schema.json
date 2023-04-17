@@ -4,7 +4,8 @@
   "info": {
     "singularName": "recipe",
     "pluralName": "recipes",
-    "displayName": "Recipe"
+    "displayName": "Recipe",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,12 +15,18 @@
     "name": {
       "type": "string",
       "required": true,
-      "unique": false,
-      "minLength": 2,
-      "private": true
+      "minLength": 2
     },
     "description": {
       "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
