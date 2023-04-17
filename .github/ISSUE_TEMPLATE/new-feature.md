@@ -1,6 +1,6 @@
 ---
-name: Issue template
-about: Issue default template
+name: New Feature
+about: A new feature to add into the project
 title: FEATURE
 labels: feature
 assignees: axel-gonzalez-dev
